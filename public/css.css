@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.item-container {
+    display: flex;
+    margin-bottom: 20px;
+          border: 2px solid #000; /* Đường viền màu đen */
+padding: 20px;
+}
+
+.item-details {
+    flex: 1;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.qr-code-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.qr-code {
+    margin-top: 20px;
+}
+
+.add-button {
+    margin-top: 10px;
+}
+
+.print-labels {
+    margin-top: 10px;
+    text-align: center;
+}
